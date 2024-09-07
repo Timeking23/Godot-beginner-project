@@ -4,7 +4,7 @@
 [ext_resource type="Script" path="res://addons/3d_controls_toolkit/SideScrollingControler3D.gd" id="1_ewjfh"]
 [ext_resource type="Script" path="res://addons/3d_controls_toolkit/TopDownControler3D.gd" id="1_t548f"]
 [ext_resource type="Script" path="res://addons/3d_controls_toolkit/FirstPersonControler3D.gd" id="2_vkeju"]
-[ext_resource type="Script" path="res://addons/3d_controls_toolkit/ThirdPersonControler3D.gd" id="3_acxhl"]
+[ext_resource type="Script" path="res://ThirdPersonControler3D.gd" id="3_acxhl"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_06tq4"]
 
