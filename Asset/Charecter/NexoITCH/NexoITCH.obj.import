@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://654hmxsvrtk0"
+path="res://.godot/imported/NexoITCH.obj-143e81a5f99ca6516827137cb36bdcee.mesh"
+
+[deps]
+
+files=["res://.godot/imported/NexoITCH.obj-143e81a5f99ca6516827137cb36bdcee.mesh"]
+
+source_file="res://Asset/Charecter/NexoITCH/NexoITCH.obj"
+dest_files=["res://.godot/imported/NexoITCH.obj-143e81a5f99ca6516827137cb36bdcee.mesh", "res://.godot/imported/NexoITCH.obj-143e81a5f99ca6516827137cb36bdcee.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

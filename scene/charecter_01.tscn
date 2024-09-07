@@ -1,0 +1,5 @@
+[gd_scene load_steps=2 format=3 uid="uid://bramwntm7lt6h"]
+
+[ext_resource type="PackedScene" uid="uid://bjdfyyr0u3dow" path="res://Asset/Charecter/NexoITCH/NexoITCH.glb" id="1_ga853"]
+
+[node name="charecter01" instance=ExtResource("1_ga853")]
