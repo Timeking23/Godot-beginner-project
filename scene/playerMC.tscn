@@ -1,0 +1,5 @@
+[gd_scene load_steps=2 format=3 uid="uid://cjp03d0voiee4"]
+
+[ext_resource type="PackedScene" uid="uid://dlbkch6iuy8gn" path="res://addons/fp_controller/player.tscn" id="1_m2mg6"]
+
+[node name="Player" instance=ExtResource("1_m2mg6")]

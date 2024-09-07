@@ -1,13 +1,14 @@
-[gd_scene load_steps=4 format=3 uid="uid://cj1gqbfphwy4d"]
+[gd_scene load_steps=5 format=3 uid="uid://cj1gqbfphwy4d"]
 
 [ext_resource type="PackedScene" uid="uid://du3q8xoxpb83n" path="res://Asset/Charecter/NexoITCH/NexoITCH.fbx" id="1_i13c8"]
-[ext_resource type="Script" path="res://scene/nexo_itch.gd" id="2_cvg4a"]
+[ext_resource type="Script" path="res://Asset/Charecter/NexoITCH/nexo_itch.gd" id="2_1a6sv"]
+[ext_resource type="Script" path="res://addons/fp_controller/scripts/smooth_camera.gd" id="3_a0pib"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_cyfkx"]
 
 [node name="NexoITCH" instance=ExtResource("1_i13c8")]
 transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
-script = ExtResource("2_cvg4a")
+script = ExtResource("2_1a6sv")
 
 [node name="Skeleton3D" parent="root" index="0"]
 bones/1/rotation = Quaternion(-0.0951692, -0.00328485, 0.000314322, 0.995456)
@@ -216,3 +217,4 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 7.80244, -1.93193)
 
 [node name="Camera3D" type="Camera3D" parent="SpringArm3D" index="0"]
 transform = Transform3D(-2, 0, -1.74846e-07, 0, 2, 0, 1.74846e-07, 0, -2, 2, 2, -4)
+script = ExtResource("3_a0pib")
