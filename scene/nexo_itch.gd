@@ -17,7 +17,7 @@ func _unhandled_input(event: InputEvent) -> void:
 	if event is InputEventMouseMotion:
 		pivot.rotate_y(-event.relative.x *mouse_sens)
 		camera.rotate_x(event.relative.y *mouse_sens)
-		camera.rotation.x = clamp(camera.rotation.x, deg_to_rad(-10),deg_to_rad(10))
+		camera.rotation.x = clamp(camera.rotation.x, deg_to_rad(-45),deg_to_rad(60))
 		
 	
 func _physics_process(delta):
