@@ -13,7 +13,8 @@ func _physics_process(delta):
 	if direction:
 		velocity.x = direction.x * speed
 		velocity.z = direction.z * speed
-	else: #hard stop when input let go
+	#hard stop when input let go
+	else:
 		velocity.x = 0.0
 		velocity.z = 0.0
 	
