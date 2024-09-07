@@ -1,11 +1,13 @@
-[gd_scene load_steps=3 format=3 uid="uid://cj1gqbfphwy4d"]
+[gd_scene load_steps=4 format=3 uid="uid://cj1gqbfphwy4d"]
 
 [ext_resource type="PackedScene" uid="uid://du3q8xoxpb83n" path="res://Asset/Charecter/NexoITCH/NexoITCH.fbx" id="1_i13c8"]
+[ext_resource type="Script" path="res://addons/3d_controls_toolkit/FirstPersonControler3D.gd" id="2_s2mb3"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_cyfkx"]
 
 [node name="NexoITCH" instance=ExtResource("1_i13c8")]
 transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+script = ExtResource("2_s2mb3")
 
 [node name="Skeleton3D" parent="root" index="0"]
 bones/1/rotation = Quaternion(-0.0951692, -0.00328485, 0.000314322, 0.995456)
@@ -213,4 +215,4 @@ shape = SubResource("CapsuleShape3D_cyfkx")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 8, 0)
 
 [node name="Camera3D" type="Camera3D" parent="SpringArm3D" index="0"]
-transform = Transform3D(-2, 0, -1.74846e-07, 0, 2, 0, 1.74846e-07, 0, -2, 0, 8, 0)
+transform = Transform3D(-2, 0, -1.74846e-07, 0, 2, 0, 1.74846e-07, 0, -2, 2, 2, -4)

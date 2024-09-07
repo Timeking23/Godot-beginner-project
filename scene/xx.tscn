@@ -2,7 +2,9 @@
 
 [ext_resource type="PackedScene" uid="uid://gdncgva0f616" path="res://Asset/Abandoned_House/Models/Abandoned_House.glb" id="1_g4gs0"]
 [ext_resource type="PackedScene" uid="uid://cj1gqbfphwy4d" path="res://scene/nexo_itch.tscn" id="2_kg0ca"]
-[ext_resource type="Script" path="res://scene/nexo_itch.gd" id="3_7cn8f"]
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_dxylt"]
+data = PackedVector3Array(129.04, -0.0333, -4.9613, 369.645, -0.0333, 4.9636, 129.04, -0.0333, 4.9636, 129.04, -0.0333, -4.9613, 369.645, -0.0333, -4.9613, 369.645, -0.0333, 4.9636, 84.9015, -0.0333, 0.6823, -128.651, -0.0333, -4.9428, 84.9015, -0.0333, -4.9428, 84.9015, -0.0333, 0.6823, -128.651, -0.0333, 0.6823, -128.651, -0.0333, -4.9428, 84.9015, -0.0333, 4.9666, -128.651, -0.0333, 4.9583, 84.9015, -0.0333, 4.9583, 84.9015, -0.0333, 4.9666, -128.651, -0.0333, 4.9666, -128.651, -0.0333, 4.9583, 84.9015, -0.0333, 4.9583, -128.651, -0.0333, 0.6823, 84.9015, -0.0333, 0.6823, 84.9015, -0.0333, 4.9583, -128.651, -0.0333, 4.9583, -128.651, -0.0333, 0.6823, 129.04, -0.0333, 4.9611, 369.645, 0.0687, 4.9611, 129.04, 0.0687, 4.9611, 129.04, -0.0333, 4.9611, 369.645, -0.0333, 4.9611, 369.645, 0.0687, 4.9611, 129.04, 0.0687, -7.3388, 369.645, 0.0687, -4.9613, 129.04, 0.0687, -4.9613, 129.04, 0.0687, -7.3388, 369.645, 0.0687, -7.3388, 369.645, 0.0687, -4.9613, 129.04, 0.0687, 4.9611, 369.645, 0.0687, 7.3386, 129.04, 0.0687, 7.3386, 129.04, 0.0687, 4.9611, 369.645, 0.0687, 4.9611, 369.645, 0.0687, 7.3386, 129.04, 0.0687, -4.9613, 369.645, -0.0333, -4.9326, 129.04, -0.0333, -4.9326, 129.04, 0.0687, -4.9613, 369.645, 0.0687, -4.9613, 369.645, -0.0333, -4.9326, 84.9015, 0.0687, 4.9665, -128.651, -0.0333, 4.9665, 84.9015, -0.0333, 4.9665, 84.9015, 0.0687, 4.9665, -128.651, 0.0687, 4.9665, -128.651, -0.0333, 4.9665, 84.9015, -0.0333, -4.9429, -128.651, 0.0687, -4.9667, 84.9015, 0.0687, -4.9667, 84.9015, -0.0333, -4.9429, -128.651, -0.0333, -4.9429, -128.651, 0.0687, -4.9667, 84.9015, 0.0687, -4.9667, -128.651, 0.0687, -7.344, 84.9015, 0.0687, -7.344, 84.9015, 0.0687, -4.9667, -128.651, 0.0687, -4.9667, -128.651, 0.0687, -7.344, 84.9015, 0.0687, 7.344, -128.651, 0.0687, 4.9665, 84.9015, 0.0687, 4.9665, 84.9015, 0.0687, 7.344, -128.651, 0.0687, 7.344, -128.651, 0.0687, 4.9665)
 
 [node name="world" instance=ExtResource("1_g4gs0")]
 
@@ -1857,8 +1859,18 @@ transform = Transform3D(0.152486, 0, 0.152486, 0, 0.215648, 0, -0.152486, 0, 0.1
 [node name="Carretera" parent="Vecindario" index="1"]
 transform = Transform3D(1.30761, 0, 0, 0, 1.30761, 0, 0, 0, 1.30761, -148.018, -2.16684, 134.518)
 
+[node name="StaticBody3D" type="StaticBody3D" parent="Vecindario/Carretera" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Vecindario/Carretera/StaticBody3D" index="0"]
+shape = SubResource("ConcavePolygonShape3D_dxylt")
+
 [node name="Carretera_001" parent="Vecindario" index="2"]
 transform = Transform3D(1.30761, 0, 0, 0, 1.30761, 0, 0, 0, 1.30761, -8.1271, -2.16679, 134.52)
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Vecindario/Carretera_001" index="0"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Vecindario/Carretera_001/StaticBody3D" index="0"]
+shape = SubResource("ConcavePolygonShape3D_dxylt")
 
 [node name="Arboles_001" parent="Vecindario" index="3"]
 transform = Transform3D(0.152486, 0, 0.152486, 0, 0.215648, 0, -0.152486, 0, 0.152486, 299.646, -1.20459, 123.824)
@@ -1951,8 +1963,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -23.027, 2.20069, 142.38)
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -48.5627, -0.913504, -3.22374)
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="." index="34"]
-transform = Transform3D(-0.250342, -0.802894, 0.541007, 0.258819, 0.482963, 0.836516, -0.932921, 0.349438, 0.0868981, 0, 3, 2)
+transform = Transform3D(0.965927, -0.129727, -0.22396, 0.258819, 0.482963, 0.836516, -0.000353947, -0.865977, 0.500082, 0, 3, 2)
 
 [node name="NexoITCH" parent="." index="35" instance=ExtResource("2_kg0ca")]
 transform = Transform3D(0.205, 0, 0, 0, 0.205, 0, 0, 0, 0.205, -4, 0, 3)
-script = ExtResource("3_7cn8f")
