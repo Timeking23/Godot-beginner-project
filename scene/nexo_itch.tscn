@@ -1,8 +1,9 @@
-[gd_scene load_steps=5 format=3 uid="uid://cj1gqbfphwy4d"]
+[gd_scene load_steps=6 format=3 uid="uid://cj1gqbfphwy4d"]
 
 [ext_resource type="PackedScene" uid="uid://du3q8xoxpb83n" path="res://Asset/Charecter/NexoITCH/NexoITCH.fbx" id="1_i13c8"]
 [ext_resource type="Script" path="res://Asset/Charecter/NexoITCH/nexo_itch.gd" id="2_1a6sv"]
 [ext_resource type="Script" path="res://addons/fp_controller/scripts/smooth_camera.gd" id="3_a0pib"]
+[ext_resource type="Script" path="res://addons/fp_controller/scripts/player_ui.gd" id="4_5ohtm"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_cyfkx"]
 
@@ -212,9 +213,40 @@ bones/67/scale = Vector3(1, 1, 1)
 transform = Transform3D(5, 0, 0, 0, 4.95635, 0.659206, 0, -0.659206, 4.95635, 0, 4.78672, 0)
 shape = SubResource("CapsuleShape3D_cyfkx")
 
-[node name="SpringArm3D" type="SpringArm3D" parent="." index="3"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 7.80244, -1.93193)
+[node name="CameraPivot" type="Node3D" parent="." index="3"]
+unique_name_in_owner = true
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 11.7586, -3.18696)
 
-[node name="Camera3D" type="Camera3D" parent="SpringArm3D" index="0"]
-transform = Transform3D(-2, 0, -1.74846e-07, 0, 2, 0, 1.74846e-07, 0, -2, 2, 2, -4)
+[node name="SmoothCamera" type="Camera3D" parent="CameraPivot" index="0"]
+transform = Transform3D(-2, 0, -1.78814e-07, 0, 2, 0, 1.78814e-07, 0, -2, -2.08165e-12, -1.3894, -4)
 script = ExtResource("3_a0pib")
+
+[node name="ReflectionProbe" type="ReflectionProbe" parent="CameraPivot/SmoothCamera" index="0"]
+
+[node name="UserInterface" type="Control" parent="." index="4"]
+top_level = true
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(576, 324)
+mouse_filter = 2
+script = ExtResource("4_5ohtm")
+
+[node name="CrosshairContainer" type="CenterContainer" parent="UserInterface" index="0"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="Crosshair" type="Control" parent="UserInterface/CrosshairContainer" index="0"]
+unique_name_in_owner = true
+layout_mode = 2
+mouse_filter = 2
+
+[connection signal="draw" from="UserInterface/CrosshairContainer/Crosshair" to="UserInterface" method="_on_crosshair_draw"]
