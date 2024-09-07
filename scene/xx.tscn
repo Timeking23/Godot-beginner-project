@@ -8,7 +8,6 @@ background_energy_multiplier = 1.95
 ambient_light_energy = 4.01
 reflected_light_source = 2
 tonemap_exposure = 2.27
-fog_enabled = true
 fog_light_color = Color(0.174278, 0.147606, 0.0170185, 1)
 fog_light_energy = 0.83
 fog_sun_scatter = 0.42
@@ -32,7 +31,7 @@ data = PackedVector3Array(129.04, -0.0333, -4.9613, 369.645, -0.0333, 4.9636, 12
 [node name="world" instance=ExtResource("1_g4gs0")]
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="." index="0"]
-transform = Transform3D(0.241491, 0.327424, 0.913497, 0.775911, -0.630497, 0.0208695, 0.58279, 0.703752, -0.406312, -40.53, 84.4181, -5.79772)
+transform = Transform3D(0.0325048, -0.33055, -0.943228, -0.981836, -0.187062, 0.0317198, -0.186927, 0.925065, -0.330626, -12.4093, 80.6536, -36.4801)
 shadow_enabled = true
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="." index="1"]
@@ -1898,7 +1897,7 @@ transform = Transform3D(1.30761, 0, 0, 0, 1.30761, 0, 0, 0, 1.30761, -148.018, -
 shape = SubResource("ConcavePolygonShape3D_dxylt")
 
 [node name="Carretera_001" parent="Vecindario" index="2"]
-transform = Transform3D(1.30761, 0, 0, 0, 1.30761, 0, 0, 0, 1.30761, -8.1271, -2.16679, 134.52)
+transform = Transform3D(1.30761, 0, 0, 0, 1.30747, -0.0193524, 0, 0.0193524, 1.30747, -8.1271, -2.16679, 134.52)
 
 [node name="StaticBody3D" type="StaticBody3D" parent="Vecindario/Carretera_001" index="0"]
 
