@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://owdnhkhnayay"
+uid="uid://l6ghs2w214f4"
 path.s3tc="res://.godot/imported/Abandoned_House_Lampara1 - emisor.png-ba863c038b2f83ea59d1363e171b3469.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "e358beba3504a6054862effdb1eaad82"
 }
 
 [deps]

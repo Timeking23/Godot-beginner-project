@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://i6a2e8eun7xs"
+uid="uid://bqf1l0tvwqisg"
 path.s3tc="res://.godot/imported/Abandoned_House_Telefono.jpg-650d053de2fa7d49a190fbbfb3368790.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "c57e2199cd97cad8f078e1e80ab1fedb"
 }
 
 [deps]

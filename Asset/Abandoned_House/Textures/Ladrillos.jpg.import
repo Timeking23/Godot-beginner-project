@@ -2,8 +2,8 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://kcrvguymlu4f"
-path.s3tc="res://.godot/imported/Ladrillos.jpg-63237867da688c94127e0fe187f77f4a.s3tc.ctex"
+uid="uid://ch53t4mmeuwak"
+path.s3tc="res://.godot/imported/Ladrillos.jpg-073fe098f1b65174ff1978a00db56b7a.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Asset/Abandoned_House/Textures/Ladrillos.jpg"
-dest_files=["res://.godot/imported/Ladrillos.jpg-63237867da688c94127e0fe187f77f4a.s3tc.ctex"]
+source_file="res://Asset/Abandoned_House/textures/Ladrillos.jpg"
+dest_files=["res://.godot/imported/Ladrillos.jpg-073fe098f1b65174ff1978a00db56b7a.s3tc.ctex"]
 
 [params]
 

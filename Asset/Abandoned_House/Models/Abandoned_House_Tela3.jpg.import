@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cv5s5ie6yx4rr"
+uid="uid://bhma7s50q84w0"
 path.s3tc="res://.godot/imported/Abandoned_House_Tela3.jpg-a8f49e7008d5ef8d9fda90ed66be941a.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "133d5530fa875d7e30f6249f9d877dc6"
 }
 
 [deps]

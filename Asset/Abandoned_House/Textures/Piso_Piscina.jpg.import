@@ -2,8 +2,8 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cr0unsdy25mib"
-path.s3tc="res://.godot/imported/Piso_Piscina.jpg-5e78dec275be00d70f19007d0cad1245.s3tc.ctex"
+uid="uid://bmxpwm6s68dqs"
+path.s3tc="res://.godot/imported/Piso_Piscina.jpg-7df62785e2f7445befb5d1eac4478f9c.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Asset/Abandoned_House/Textures/Piso_Piscina.jpg"
-dest_files=["res://.godot/imported/Piso_Piscina.jpg-5e78dec275be00d70f19007d0cad1245.s3tc.ctex"]
+source_file="res://Asset/Abandoned_House/textures/Piso_Piscina.jpg"
+dest_files=["res://.godot/imported/Piso_Piscina.jpg-7df62785e2f7445befb5d1eac4478f9c.s3tc.ctex"]
 
 [params]
 

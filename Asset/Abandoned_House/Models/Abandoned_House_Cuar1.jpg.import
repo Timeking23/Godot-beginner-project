@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://crkr5i8ys3q3v"
+uid="uid://o5kjpsauhjvi"
 path.s3tc="res://.godot/imported/Abandoned_House_Cuar1.jpg-c30eb5a81e1a94d56ffd7046f87a77d1.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "cfe4fb2a6c8b8496e390448bcff5b0f2"
 }
 
 [deps]

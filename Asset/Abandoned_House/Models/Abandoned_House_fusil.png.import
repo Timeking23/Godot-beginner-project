@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b83ctaslmrc4"
+uid="uid://hynoah7m8yqd"
 path.s3tc="res://.godot/imported/Abandoned_House_fusil.png-b09c8fa8b720c7719f9de9d6f9bc0c57.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "981f54c6091827b28bbafe06a2f11ea4"
 }
 
 [deps]

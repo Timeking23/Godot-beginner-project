@@ -2,8 +2,8 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://qswkldbcutob"
-path.s3tc="res://.godot/imported/Banera.png-4b21a7d6bc92a54ee50493417b401c12.s3tc.ctex"
+uid="uid://ddcchae6l4hw"
+path.s3tc="res://.godot/imported/Banera.png-051e23b30e4a8faa445eb96901db300b.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Asset/Abandoned_House/Textures/Banera.png"
-dest_files=["res://.godot/imported/Banera.png-4b21a7d6bc92a54ee50493417b401c12.s3tc.ctex"]
+source_file="res://Asset/Abandoned_House/textures/Banera.png"
+dest_files=["res://.godot/imported/Banera.png-051e23b30e4a8faa445eb96901db300b.s3tc.ctex"]
 
 [params]
 

@@ -2,8 +2,8 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://prehxmbhntxd"
-path.s3tc="res://.godot/imported/Cables.jpg-4460a86faa9bebd6d6711e148c8343f0.s3tc.ctex"
+uid="uid://dwcrvolncu8n8"
+path.s3tc="res://.godot/imported/Cables.jpg-85b56611776d08e5540ff48247702540.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Asset/Abandoned_House/Textures/Cables.jpg"
-dest_files=["res://.godot/imported/Cables.jpg-4460a86faa9bebd6d6711e148c8343f0.s3tc.ctex"]
+source_file="res://Asset/Abandoned_House/textures/Cables.jpg"
+dest_files=["res://.godot/imported/Cables.jpg-85b56611776d08e5540ff48247702540.s3tc.ctex"]
 
 [params]
 

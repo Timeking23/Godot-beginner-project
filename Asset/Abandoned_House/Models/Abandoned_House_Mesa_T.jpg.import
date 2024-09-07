@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://fncaru0n6gm3"
+uid="uid://cfbu55o2hl3cu"
 path.s3tc="res://.godot/imported/Abandoned_House_Mesa_T.jpg-8830ac1f959f0db05243b5a54943fdcf.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "7a5d74fd307729efb34e09f472c7d9aa"
 }
 
 [deps]

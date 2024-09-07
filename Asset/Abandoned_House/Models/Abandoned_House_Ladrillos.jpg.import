@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bkijm8br44uis"
+uid="uid://d3r72qokm0l3j"
 path.s3tc="res://.godot/imported/Abandoned_House_Ladrillos.jpg-44aa454a9afc34d680e47deef1b8df94.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "d6db6962bc8082ec9a7205cdec452c8f"
 }
 
 [deps]

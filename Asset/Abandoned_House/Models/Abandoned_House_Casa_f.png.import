@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://depo1q0he38ce"
+uid="uid://p2px3v3w8kpx"
 path.s3tc="res://.godot/imported/Abandoned_House_Casa_f.png-332d5974f3b7eef99968577d253b08be.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "b1131992e93b5799d2bc3148f0b50be2"
 }
 
 [deps]

@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://qwk4hkhhi8c3"
+uid="uid://bnhoqq832alp8"
 path.s3tc="res://.godot/imported/Abandoned_House_Foco - emisor.png-05fb17081086338ae5564ce107e6d064.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "463c704c53f1cc0c8353d9f49ce91508"
 }
 
 [deps]

@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://byfofstp6m35y"
+uid="uid://cxtpucberaw6n"
 path.s3tc="res://.godot/imported/Abandoned_House_Refrigerador.png-5291c98345238159d5e002dc687d0ea2.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "aceba4517fd503207793f6fc4d3b6dda"
 }
 
 [deps]

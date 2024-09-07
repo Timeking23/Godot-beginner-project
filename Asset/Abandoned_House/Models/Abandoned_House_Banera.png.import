@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bsj1rnsouwtlp"
+uid="uid://dcasxagyws6ys"
 path.s3tc="res://.godot/imported/Abandoned_House_Banera.png-e7385ba4c2d7cfbc044cea8fd070f9fe.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "fdfe9a25663f786db879e5becfbf39bb"
 }
 
 [deps]

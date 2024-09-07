@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c7wl3li1310st"
+uid="uid://dfqq4v65vv4e7"
 path.s3tc="res://.godot/imported/Abandoned_House_Madera3.jpg-2d224fd11dacefd44e2a9d3569535451.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "e42eab2e2f87e846d38893c859eee3d9"
 }
 
 [deps]

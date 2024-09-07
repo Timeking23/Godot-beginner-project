@@ -2,8 +2,8 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c0wgcnnbs2j4h"
-path.s3tc="res://.godot/imported/Pasto1.jpg-201c75a7be31d0d71ebc346bfd1e081f.s3tc.ctex"
+uid="uid://duaqqoo4kui1d"
+path.s3tc="res://.godot/imported/Pasto1.jpg-bfb3a5601f69f559cbb8ef544cc37612.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Asset/Abandoned_House/Textures/Pasto1.jpg"
-dest_files=["res://.godot/imported/Pasto1.jpg-201c75a7be31d0d71ebc346bfd1e081f.s3tc.ctex"]
+source_file="res://Asset/Abandoned_House/textures/Pasto1.jpg"
+dest_files=["res://.godot/imported/Pasto1.jpg-bfb3a5601f69f559cbb8ef544cc37612.s3tc.ctex"]
 
 [params]
 

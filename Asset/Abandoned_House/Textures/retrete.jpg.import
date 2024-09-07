@@ -2,8 +2,8 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c674rnxuck5w1"
-path.s3tc="res://.godot/imported/retrete.jpg-9013e18c434449c3e24ee07a69e9dd89.s3tc.ctex"
+uid="uid://pchfsl3enwwg"
+path.s3tc="res://.godot/imported/retrete.jpg-29d49bef3546b5fb7f19840388a39dfe.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Asset/Abandoned_House/Textures/retrete.jpg"
-dest_files=["res://.godot/imported/retrete.jpg-9013e18c434449c3e24ee07a69e9dd89.s3tc.ctex"]
+source_file="res://Asset/Abandoned_House/textures/retrete.jpg"
+dest_files=["res://.godot/imported/retrete.jpg-29d49bef3546b5fb7f19840388a39dfe.s3tc.ctex"]
 
 [params]
 

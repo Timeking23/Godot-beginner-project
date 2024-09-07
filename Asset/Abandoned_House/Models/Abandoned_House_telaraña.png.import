@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bq6mypjrthnvd"
+uid="uid://cgljbkfixj357"
 path.s3tc="res://.godot/imported/Abandoned_House_telaraña.png-32ed692364f7969d361b54a2bc7b97af.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "86dd7710e2d6fb5efa4c2fb49d6653dc"
 }
 
 [deps]

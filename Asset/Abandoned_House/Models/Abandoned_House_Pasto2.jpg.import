@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cc6r6naqcx3rl"
+uid="uid://x4aptvkamvni"
 path.s3tc="res://.godot/imported/Abandoned_House_Pasto2.jpg-083482581b84b6c66482435dfe1d339d.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "212dfd9e8ce1d72170a3ab9971dd43cb"
 }
 
 [deps]

@@ -2,8 +2,8 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://pl8hc2ajcuik"
-path.s3tc="res://.godot/imported/Lavadora.jpg-a67785a347e82e5950199b86781a297f.s3tc.ctex"
+uid="uid://bk676i0h253gf"
+path.s3tc="res://.godot/imported/Lavadora.jpg-8c14b1330119c7a2546f1581ae299de2.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Asset/Abandoned_House/Textures/Lavadora.jpg"
-dest_files=["res://.godot/imported/Lavadora.jpg-a67785a347e82e5950199b86781a297f.s3tc.ctex"]
+source_file="res://Asset/Abandoned_House/textures/Lavadora.jpg"
+dest_files=["res://.godot/imported/Lavadora.jpg-8c14b1330119c7a2546f1581ae299de2.s3tc.ctex"]
 
 [params]
 

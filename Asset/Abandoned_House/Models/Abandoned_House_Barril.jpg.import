@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b6fv2xcyt2tcc"
+uid="uid://dnyjexrmkhfci"
 path.s3tc="res://.godot/imported/Abandoned_House_Barril.jpg-e60f9c2d61d940ce4af6ccd7e283a4c6.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "6afce1842593dcbe5573fc430dc7b042"
 }
 
 [deps]

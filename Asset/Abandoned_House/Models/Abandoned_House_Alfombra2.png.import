@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dfxjpkrp287sp"
+uid="uid://boe7gqbsy4326"
 path.s3tc="res://.godot/imported/Abandoned_House_Alfombra2.png-98f4fcc051677d7b932aeb6cf7295bfa.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "19806097894e696b39ae17b901ecd12e"
 }
 
 [deps]

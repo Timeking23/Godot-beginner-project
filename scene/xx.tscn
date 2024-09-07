@@ -1,27 +1,42 @@
-[gd_scene load_steps=7 format=3 uid="uid://bssq8xv7np2ko"]
+[gd_scene load_steps=5 format=3 uid="uid://bssq8xv7np2ko"]
 
-[ext_resource type="PackedScene" uid="uid://gdncgva0f616" path="res://Asset/Abandoned_House/Models/Abandoned_House.glb" id="1_g4gs0"]
+[ext_resource type="PackedScene" uid="uid://bx8lavmthumej" path="res://Asset/Abandoned_House/Models/Abandoned_House.glb" id="1_g4gs0"]
 [ext_resource type="PackedScene" uid="uid://cj1gqbfphwy4d" path="res://scene/nexo_itch.tscn" id="2_vrdxp"]
 
-[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_tfacw"]
-sky_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
-ground_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
-
-[sub_resource type="Sky" id="Sky_g2qv6"]
-sky_material = SubResource("ProceduralSkyMaterial_tfacw")
-
-[sub_resource type="Environment" id="Environment_q0xfm"]
-background_mode = 2
-sky = SubResource("Sky_g2qv6")
-tonemap_mode = 2
+[sub_resource type="Environment" id="Environment_pyeta"]
+background_energy_multiplier = 1.95
+ambient_light_energy = 4.01
+reflected_light_source = 2
+tonemap_exposure = 2.27
+fog_enabled = true
+fog_light_color = Color(0.174278, 0.147606, 0.0170185, 1)
+fog_light_energy = 0.83
+fog_sun_scatter = 0.42
+fog_sky_affect = 0.232
+fog_height = 22.47
+fog_height_density = -12.4632
+volumetric_fog_enabled = true
+volumetric_fog_density = 0.4816
+volumetric_fog_albedo = Color(0.94902, 0.254902, 0.870588, 1)
+volumetric_fog_emission = Color(0, 0.564077, 0.505524, 1)
+volumetric_fog_emission_energy = 163.08
+volumetric_fog_gi_inject = 1.79
+volumetric_fog_length = 225.68
+volumetric_fog_detail_spread = 1.56917
+volumetric_fog_ambient_inject = 2.26
+volumetric_fog_sky_affect = 0.52
 
 [sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_dxylt"]
 data = PackedVector3Array(129.04, -0.0333, -4.9613, 369.645, -0.0333, 4.9636, 129.04, -0.0333, 4.9636, 129.04, -0.0333, -4.9613, 369.645, -0.0333, -4.9613, 369.645, -0.0333, 4.9636, 84.9015, -0.0333, 0.6823, -128.651, -0.0333, -4.9428, 84.9015, -0.0333, -4.9428, 84.9015, -0.0333, 0.6823, -128.651, -0.0333, 0.6823, -128.651, -0.0333, -4.9428, 84.9015, -0.0333, 4.9666, -128.651, -0.0333, 4.9583, 84.9015, -0.0333, 4.9583, 84.9015, -0.0333, 4.9666, -128.651, -0.0333, 4.9666, -128.651, -0.0333, 4.9583, 84.9015, -0.0333, 4.9583, -128.651, -0.0333, 0.6823, 84.9015, -0.0333, 0.6823, 84.9015, -0.0333, 4.9583, -128.651, -0.0333, 4.9583, -128.651, -0.0333, 0.6823, 129.04, -0.0333, 4.9611, 369.645, 0.0687, 4.9611, 129.04, 0.0687, 4.9611, 129.04, -0.0333, 4.9611, 369.645, -0.0333, 4.9611, 369.645, 0.0687, 4.9611, 129.04, 0.0687, -7.3388, 369.645, 0.0687, -4.9613, 129.04, 0.0687, -4.9613, 129.04, 0.0687, -7.3388, 369.645, 0.0687, -7.3388, 369.645, 0.0687, -4.9613, 129.04, 0.0687, 4.9611, 369.645, 0.0687, 7.3386, 129.04, 0.0687, 7.3386, 129.04, 0.0687, 4.9611, 369.645, 0.0687, 4.9611, 369.645, 0.0687, 7.3386, 129.04, 0.0687, -4.9613, 369.645, -0.0333, -4.9326, 129.04, -0.0333, -4.9326, 129.04, 0.0687, -4.9613, 369.645, 0.0687, -4.9613, 369.645, -0.0333, -4.9326, 84.9015, 0.0687, 4.9665, -128.651, -0.0333, 4.9665, 84.9015, -0.0333, 4.9665, 84.9015, 0.0687, 4.9665, -128.651, 0.0687, 4.9665, -128.651, -0.0333, 4.9665, 84.9015, -0.0333, -4.9429, -128.651, 0.0687, -4.9667, 84.9015, 0.0687, -4.9667, 84.9015, -0.0333, -4.9429, -128.651, -0.0333, -4.9429, -128.651, 0.0687, -4.9667, 84.9015, 0.0687, -4.9667, -128.651, 0.0687, -7.344, 84.9015, 0.0687, -7.344, 84.9015, 0.0687, -4.9667, -128.651, 0.0687, -4.9667, -128.651, 0.0687, -7.344, 84.9015, 0.0687, 7.344, -128.651, 0.0687, 4.9665, 84.9015, 0.0687, 4.9665, 84.9015, 0.0687, 7.344, -128.651, 0.0687, 7.344, -128.651, 0.0687, 4.9665)
 
 [node name="world" instance=ExtResource("1_g4gs0")]
 
-[node name="WorldEnvironment" type="WorldEnvironment" parent="." index="0"]
-environment = SubResource("Environment_q0xfm")
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." index="0"]
+transform = Transform3D(0.241491, 0.327424, 0.913497, 0.775911, -0.630497, 0.0208695, 0.58279, 0.703752, -0.406312, -40.53, 84.4181, -5.79772)
+shadow_enabled = true
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." index="1"]
+environment = SubResource("Environment_pyeta")
 
 [node name="Piso_001" parent="Colision" index="0"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.58487, -8.55491, 102.247)
@@ -1772,10 +1787,10 @@ transform = Transform3D(-1.33271, 0, -4.34252e-07, 0, 1.33271, 0, 4.34252e-07, 0
 [node name="Alfonbra" parent="Alfombras" index="4"]
 transform = Transform3D(-1.33271, 0, -4.34252e-07, 0, 1.33271, 0, 4.34252e-07, 0, -1.33271, -23.1277, -18.2843, 225.768)
 
-[node name="Casa" parent="." index="26"]
+[node name="Casa" parent="." index="27"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -35.8533, 3.09647, -23.8744)
 
-[node name="Ventanas" parent="." index="27"]
+[node name="Ventanas" parent="." index="28"]
 transform = Transform3D(0.496147, 0, 0, 0, 0.491735, -0.0660134, 0, 0.0660134, 0.491735, -27.3827, 7.28409, -116.878)
 
 [node name="Marco_V_001" parent="Ventanas" index="0"]
@@ -1926,7 +1941,7 @@ transform = Transform3D(1.89257, 0, 0, 0, 1.30761, 0, 0, 0, 1.30761, 0.623833, -
 [node name="Telefono" parent="Vecindario" index="14"]
 transform = Transform3D(1.30761, 0, 0, 0, 1.30761, 0, 0, 0, 1.30761, -31.0987, -0.284108, 141.767)
 
-[node name="Casa_005" parent="." index="29"]
+[node name="Casa_005" parent="." index="30"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -25.3786, -0.18998, -32.4686)
 
 [node name="Bolante" parent="Ban" index="0"]
@@ -1968,20 +1983,17 @@ transform = Transform3D(0, -1.78814e-07, -1, -1, 0, -5.96046e-08, 5.96046e-08, 1
 [node name="Rueda_003" parent="Ban" index="12"]
 transform = Transform3D(0, -1.78814e-07, -1, -1, 0, -5.96046e-08, 5.96046e-08, 1, -2.38419e-07, 1.07187, -0.550578, 63.9457)
 
-[node name="Cylinder" parent="." index="31"]
+[node name="Cylinder" parent="." index="32"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -63.484, -1.05195, -1.16103)
 
-[node name="Cylinder_001" parent="." index="32"]
+[node name="Cylinder_001" parent="." index="33"]
 transform = Transform3D(0, -0.036004, 0, 0.036004, 0, 0, 0, 0, -0.036004, -63.2745, 7.04038, -0.0732422)
 
-[node name="Radio_001" parent="." index="33"]
+[node name="Radio_001" parent="." index="34"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -23.027, 2.20069, 142.38)
 
-[node name="Reseptor_Señal" parent="." index="34"]
+[node name="Reseptor_Señal" parent="." index="35"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -48.5627, -0.913504, -3.22374)
-
-[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." index="35"]
-transform = Transform3D(0.965926, -0.129727, -0.22396, 0.258819, 0.482963, 0.836516, -0.000353947, -0.865978, 0.500083, 0, 3, 2)
 
 [node name="NexoITCH" parent="." index="36" instance=ExtResource("2_vrdxp")]
 transform = Transform3D(0.16, 0, 0, 0, 0.16, 0, 0, 0, 0.16, 1, 0, 2)

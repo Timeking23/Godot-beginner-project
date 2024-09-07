@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://jeopy3fdfknc"
+uid="uid://bpceoon70juqj"
 path.s3tc="res://.godot/imported/Abandoned_House_Vidrio.jpg-5fc8af0932950066bc639193d7aac3dd.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "dbd1237a0f89a4d02fab3720f60f5773"
 }
 
 [deps]

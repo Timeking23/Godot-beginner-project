@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://crwc7ec7qodlc"
+uid="uid://5434w2p62uxk"
 path.s3tc="res://.godot/imported/Abandoned_House_Ban.jpg-b878c67c9f34a52a3ed1b0dcf8f6f455.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "747ad7f47b6d67088922677fed1b81c9"
 }
 
 [deps]

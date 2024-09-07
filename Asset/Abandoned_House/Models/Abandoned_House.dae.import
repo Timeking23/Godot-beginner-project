@@ -3,7 +3,7 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://bd4xan0pjncf"
+uid="uid://4etj7bux62uo"
 path="res://.godot/imported/Abandoned_House.dae-0e3708ed318e4eeddbd20f5c9964454b.scn"
 
 [deps]
@@ -13,8 +13,8 @@ dest_files=["res://.godot/imported/Abandoned_House.dae-0e3708ed318e4eeddbd20f5c9
 
 [params]
 
-nodes/root_type="Node3D"
-nodes/root_name="world"
+nodes/root_type=""
+nodes/root_name=""
 nodes/apply_root_scale=true
 nodes/root_scale=1.0
 nodes/import_as_skeleton_bones=false

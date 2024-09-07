@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://basq6fmt78jth"
+uid="uid://dtkktkd1ykvc3"
 path.s3tc="res://.godot/imported/Abandoned_House_Radio.jpg-d62cf36ffabdee18d516a4a633ec98fc.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "dc19361258daf8c5e11cc354feaa081c"
 }
 
 [deps]

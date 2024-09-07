@@ -2,14 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ureu4exiwfui"
+uid="uid://bnncy6ycxil14"
 path.s3tc="res://.godot/imported/Abandoned_House_Colchon.jpg-7904a39d91f61d98ba203670936ea7e8.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
-}
-generator_parameters={
-"md5": "317bea339185d881b8c7cb75f6b3b4a5"
 }
 
 [deps]

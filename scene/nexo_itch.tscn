@@ -214,10 +214,8 @@ shape = SubResource("CapsuleShape3D_cyfkx")
 
 [node name="CameraPivot" type="Node3D" parent="." index="3"]
 unique_name_in_owner = true
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 11.7586, -3.18696)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 13.3866, -3.18696)
 
 [node name="SmoothCamera" type="Camera3D" parent="CameraPivot" index="0"]
 transform = Transform3D(-2, 0, -1.78814e-07, 0, 2, 0, 1.78814e-07, 0, -2, -2.08165e-12, -1.3894, -4)
 script = ExtResource("3_1rkex")
-
-[node name="ReflectionProbe" type="ReflectionProbe" parent="CameraPivot/SmoothCamera" index="0"]
