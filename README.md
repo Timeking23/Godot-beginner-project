@@ -9,3 +9,5 @@ todo: learn how to move my model
 log 2: added basic movement except for sprint and still need to fix the camera; removed redundent files and code.
 
 todo: fix the camera and hopefully add UI or make it last.
+
+log 3: fixed 
