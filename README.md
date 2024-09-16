@@ -11,3 +11,4 @@ log 2: added basic movement except for sprint and still need to fix the camera; 
 todo: fix the camera and hopefully add UI or make it last.
 
 log 3: fixed 
+log  4: on pause till i find a path to take my game
